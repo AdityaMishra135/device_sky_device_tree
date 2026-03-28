@@ -21,8 +21,10 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 # Project ID Quota.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
 
-TARGET_SUPPORTS_OMX_SERVICE := false
 
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+
+TARGET_SUPPORTS_OMX_SERVICE := false
 QCV_FAMILY_SKUS := parrot ravelin
 
 # AAPT
