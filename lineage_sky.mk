@@ -26,11 +26,11 @@ $(call inherit-product, vendor/xiaomi/sky/sky-vendor.mk)
 
 
 # Camera information (multiple sensors supported)
-AXION_CAMERA_REAR_INFO := 50,2
-AXION_CAMERA_FRONT_INFO := 8
-AXION_MAINTAINER := IRONHIDE
-AXION_PROCESSOR := Snapdragon_4_GEN_2
-TARGET_INCLUDE_AXFX := true
+EVO_BUILD_TYPE := Unofficial
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BUILD_APERTURE_CAMERA := false
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_DISABLE_EPPE := true
 
 ## Device identifier
 PRODUCT_DEVICE := sky
